@@ -1,8 +1,5 @@
-@import "@legacy/css/bootstrap.css";
-@import "@legacy/css/font-awesome.css";
-@import "@legacy/css/custom.css";
-@import "@adminLegacy/css/admin.css";
-@import "@ownerLegacy/css/admin.css";
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "font-awesome/css/font-awesome.min.css";
 
 :root {
   font-family: "Open Sans", Arial, sans-serif;
