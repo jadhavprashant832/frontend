@@ -16,6 +16,7 @@ export default defineConfig({
     },
   },
   server: {
+    allowedHosts: ["workspace-ojhfyypi.v0.build"],
     proxy: {
       "/api": {
         target: "http://localhost:8080",
