@@ -16,7 +16,7 @@ export default defineConfig({
     },
   },
   server: {
-    allowedHosts: ["workspace-ojhfyypi.v0.build"],
+    allowedHosts: ["workspace-ojhfyypi.v0.build","sb-19o5zu0ynrfe.vercel.run"],
     proxy: {
       "/api": {
         target: "http://localhost:8080",
